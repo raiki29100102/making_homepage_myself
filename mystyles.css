@@ -1,1 +1,67 @@
-body {background : skyblue;}
+
+body {
+    background : rgb(249,194,112);
+    text-align : left;
+    margin: 0%;
+}
+
+.strong{
+    font-weight : bold ;
+}
+
+ul{
+    background : rgb(195,112,250);
+    padding-right : 10px;
+    list-style-position : inside;
+}
+
+.caution{
+    color : rgb(100%,0%,0%);
+    font-weight : bold;
+}
+
+ul ul{
+    background : rgb(112,250,195);
+}
+
+article > ul{
+    background : rgb(195,112,250);
+    margin-left : 10px;
+    padding : 10px;
+}
+
+#welcom{
+    font-size : 50px;
+    font-weight : bold;
+    color : rgb(112,167,250);
+    border-bottom : yellow 4px dotted;
+    margin-bottom : 10px; 
+    position : fixed ;
+    width : 100%;
+    z-index : 3;
+    background : rgb(249,194,112);
+    margin : 0%;
+}
+
+nav{
+    position : fixed;
+    top :200;
+    z-index : 3;
+}
+
+#main{
+    background : rgb(249,194,112);
+    position : absolute ;
+    top : 200px;
+    left : 350px;
+    display : inline;
+    z-index : 1;
+    overflow : scroll;
+}
+
+/*#main,section,footer{
+    margin :50px;
+}
+*/
+
+
