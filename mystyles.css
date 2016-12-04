@@ -45,7 +45,7 @@ article > ul{
 
 nav{
     position : fixed;
-    top :200;
+    top :200px;
     z-index : 3;
 }
 
