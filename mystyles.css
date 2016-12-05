@@ -37,7 +37,7 @@ nav{
 }
 
 .photo{
-    width : 100% ;
+    width : 90% ;
 }
 
 /*ここまで画面配置の定義のみ*/
@@ -65,11 +65,11 @@ ul,footer{
 
 h1,h2{
     background : rgb(214,161,163);
-    margin : 0% ;
+    margin-bottom : 10px ;
 }
 
 #main p,#main footer{
-    margin : 5% ;
+    margin : 2% ;
 }
 
 
@@ -79,5 +79,17 @@ h1#index {
 
 .strong{
     font-weight :bold ;
+}
+
+.underline{
+    text-decoration : underline ;
+}
+
+.coment{
+    background : rgb(161,214,203);
+}
+
+#index_side{
+    display : inline-block ;
 }
 
