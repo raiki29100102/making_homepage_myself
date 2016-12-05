@@ -40,6 +40,24 @@ nav{
     width : 90% ;
 }
 
+.index_photo_box{
+    position : relative ;
+    width : 100%;
+    height : 100%;
+}
+
+.index_box{
+    position : absolute ;
+    margin : 0%;
+    width : 50%;
+}
+
+.photo_box{
+    position : absolute ;
+    left : 50%;
+    width :50%;
+}
+
 /*ここまで画面配置の定義のみ*/
 /*ここから細かな枠組み（margin）や配色*/
 
@@ -87,15 +105,5 @@ h1#index {
 
 .coment{
     background : rgb(161,214,203);
-}
-
-#book_side{
-    display : inline-block;
-    width : 40%;
-}
-
-#index_side{
-    display : inline-block ;
-    width : 40%;
 }
 
