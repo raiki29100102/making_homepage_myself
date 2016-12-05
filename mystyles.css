@@ -89,7 +89,13 @@ h1#index {
     background : rgb(161,214,203);
 }
 
+#book_side{
+    display : inline-block;
+    width : 40%;
+}
+
 #index_side{
     display : inline-block ;
+    width : 40%;
 }
 
