@@ -27,10 +27,6 @@ nav{
     overflow : scroll ;
 }
 
-ul{
-    width : 80%;
-}
-
 #picture{
     position : fixed ;
     top : 100px;
@@ -67,9 +63,13 @@ ul{
     background : rgb(161,214,203);
     text-align : left ;
     display : inline-block ;
-    margin : 0px ;
+    margin : 5%;
 }
 
-nav{
-    display : inline-block ;
+h1{
+    background : rgb(214,161,163);
+}
+
+h1#index {
+    margin-right : 5%;
 }
