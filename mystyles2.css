@@ -1,0 +1,34 @@
+body{
+    margin : 0% ;
+    position : relative;
+}
+
+#welcom{
+    border-bottom : 5px dotted;
+    width : 100%;
+    height : 40px;
+    position : fixed ;
+}
+
+nav{
+    position : fixed ;
+    top : 45px;
+    width : 25% ;
+}
+
+#main{
+    position : fixed ;
+    top : 45px;
+    left : 25%;
+    width : 50%;
+    height: 99%;
+    overflow : scroll ;
+}
+
+#picture{
+    top : 45px;
+    position : fixed ;
+    left : 75% ;
+    height : 25% ;
+    height : 99% ;
+}

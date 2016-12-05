@@ -1,67 +1,34 @@
-
-body {
-    background : rgb(249,194,112);
-    text-align : left;
-    margin: 0%;
-}
-
-.strong{
-    font-weight : bold ;
-}
-
-ul{
-    background : rgb(195,112,250);
-    padding-right : 10px;
-    list-style-position : inside;
-}
-
-.caution{
-    color : rgb(100%,0%,0%);
-    font-weight : bold;
-}
-
-ul ul{
-    background : rgb(112,250,195);
-}
-
-article > ul{
-    background : rgb(195,112,250);
-    margin-left : 10px;
-    padding : 10px;
+body{
+    margin : 0% ;
+    position : relative;
 }
 
 #welcom{
-    font-size : 50px;
-    font-weight : bold;
-    color : rgb(112,167,250);
-    border-bottom : yellow 4px dotted;
-    margin-bottom : 10px; 
-    position : fixed ;
+    border-bottom : 5px dotted;
     width : 100%;
-    z-index : 3;
-    background : rgb(249,194,112);
-    margin : 0%;
+    height : 40px;
+    position : fixed ;
 }
 
 nav{
-    position : fixed;
-    top :200px;
-    z-index : 3;
+    position : fixed ;
+    top : 45px;
+    width : 25% ;
 }
 
 #main{
-    background : rgb(249,194,112);
-    position : absolute ;
-    top : 200px;
-    left : 350px;
-    display : inline;
-    z-index : 1;
-    overflow : scroll;
+    position : fixed ;
+    top : 45px;
+    left : 25%;
+    width : 50%;
+    height: 99%;
+    overflow : scroll ;
 }
 
-/*#main,section,footer{
-    margin :50px;
+#picture{
+    top : 45px;
+    position : fixed ;
+    left : 75% ;
+    height : 25% ;
+    height : 99% ;
 }
-*/
-
-
