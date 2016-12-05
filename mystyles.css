@@ -28,11 +28,16 @@ nav{
 }
 
 #picture{
-    top : 100px;
     position : fixed ;
+    top : 100px;
     left : 75% ;
-    height : 25% ;
-    height : 100% ;
+    width :25% ;
+    height : 85%;
+    overflow : scroll;
+}
+
+.photo{
+    width : 100% ;
 }
 
 /*ここまで画面配置の定義のみ*/
