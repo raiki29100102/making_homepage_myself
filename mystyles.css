@@ -4,31 +4,59 @@ body{
 }
 
 #welcom{
-    border-bottom : 5px dotted;
+    border-bottom : 5px dotted rgb(185,161,214);
+    font-weight : bold ;
+    font-size : 30px;
     width : 100%;
-    height : 40px;
+    height : 85px;
     position : fixed ;
 }
 
 nav{
     position : fixed ;
-    top : 45px;
+    top : 100px;
     width : 25% ;
 }
 
 #main{
     position : fixed ;
-    top : 45px;
+    top : 100px;
     left : 25%;
     width : 50%;
-    height: 99%;
+    height: 85%;
     overflow : scroll ;
 }
 
 #picture{
-    top : 45px;
+    top : 100px;
     position : fixed ;
     left : 75% ;
     height : 25% ;
-    height : 99% ;
+    height : 100% ;
+}
+
+/*ここまで画面配置の定義のみ*/
+
+.strong{
+    font-weight :bold ;
+}
+
+body{
+    background : rgb(162,215,212);
+}
+
+#welcom{
+        color : rgb(214,161,163);
+}
+
+#main{
+    background : rgb(161,208,214);
+    text-align : center ;
+}
+
+ul{
+    background : rgb(161,214,203);
+    text-align : left ;
+    display : inline-block ;
+    margin : 0px ;
 }
